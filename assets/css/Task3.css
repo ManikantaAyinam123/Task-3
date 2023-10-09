@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+ 
+
+}
+.wrapper{
+    background-image: url("https://wallpapers.com/images/featured/cup-of-coffee-4tc627vmaw0tiqiv.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.nav ul  {
+    padding:15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:poppins;
+
+ 
+}
+.nav{
+    min-height: 50px;
+    float: right;
+    width: 60%;
+}
+
+.logo{
+    width: 30%;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 1px;
+    min-height:70px;
+    color:white;
+   line-height:70px;
+    margin-bottom:10px;
+}
+span{
+    color:#FFB300;
+   
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:#FFB300;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: px 8px 16px 10px rgba(0,0,0,0.4);
+    
+}
+.nav ul li a:hover{
+
+}
+
+
+
+
+.textStyle{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+}
+.textStyle h2{
+  animation: typing 5s steps(30,end) forwards;
+  margin:0;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size:2em;
+}
+@keyframes typing{
+  0%{width:0;}
+  50%{width:100px;}
+  100%{width:100%}
+}
+.shop {
+  background-color: #333333;
+  width: 100%;
+}
+.shop-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #404040;
+  padding: 50px 100px;
+  flex-wrap: wrap;
+  transition: transform 1s ;
+}
+
+.shop-box .card {
+  width: 280px;
+  margin: 50px;
+  
+}
+
+.shop-box .card-image {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+ 
+  
+}
+
+.shop-box .card-image img:hover {
+  transform: scale(1.1);
+  transition: transform .6s ease-in-out;
+}
+
+.shop-box .card-body {
+  padding: 20px;
+  color: white;
+  border: 3px solid #3B3B3B;
+}
+
+.shop-box .card-body h3 {
+  padding: 10px 0;
+}
+
+.shop-box .card-body i {
+  color: yellow;
+  font-size: 10px;
+  position: relative;
+  bottom: 5px;
+}
+
+.shop-box .card-body .cash {
+  font-size: 22px;
+  margin-left: 90px;
+}
+.shop-box .card-body button{
+   font-weight: bolder;
+   padding :13px;
+   margin-left: 30px;
+}
+.shop-box .card-body button:hover{
+  background-color: red;
+  transform: scale(1.1);
+  transition: transform .4s ease-in-out;
+
+}
+.footer{
+  height:150px;
+  background-color:#514644;
+  color:whitesmoke;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer-content1,.footer-content2,.footer-content3,.footer-content4{
+  
+ 
+  height: 100px;
+  width:160px;
+  
+}
+.logo-footer {
+  font-size: 16px; 
+}
+
+.logo-footer i {
+  display: inline-block;
+  vertical-align: middle; 
+  margin-right: 5px;
+}
+
+.logo-footer span {
+  font-weight: bold;
+}
+
+ .footer-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#514644;
+  height: 65px;
+  text-indent: 50px;
+ 
+ }
+
+
+
+@media screen and (min-width:2560px) {
+  .dropdowntn{ 
+    display: none;
+}
+}
+@media screen and (min-width:1440px) {
+  .dropdowntn{ 
+    display: none;
+}
+}
+@media screen and (min-width:1024px) {
+  .dropdowntn{ 
+    display: none;
+}
+}
+
+
+@media screen and (min-width:768px) {
+  .dropdowntn{ 
+    display: none;
+}
+}
+@media only screen and (max-width:426px)
+{
+    .logo{
+        width:100%;
+
+
+    }
+    
+  
+     .dropdowntn{ 
+        float:right;
+     background-color:rgba(151, 39, 39, 0.477);
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+      border: none;
+      cursor: pointer;
+
+          }
+    .dropdowntn:hover{
+            color:black;
+        }
+          
+.nav{
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  .dropdown-content ul  {
+    color: rgb(112, 21, 21);
+   
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content ul li {
+    margin-bottom: 13px;
+    padding:
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    
+  }
+ 
+
+  .nav:hover .dropdown-content{
+    display: block;
+  
+  }
+  .nav:hover .dropdowntn {
+    background-color: #3e8e410c;
+  }
+  .dropdown-content a:hover {
+   
+     
+     padding:1px 40px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+   
+}
+
+
+.footer-content1,.footer-content2{
+  display:none;
+}
+
+
+}
+
+@media only screen and (max-width:320px){
+  .footer-content4{
+    display:none;
+    
+  }
+  .footer-content3{
+    font-weight: bolder;
+    
+  }
+  .footer-end{
+    margin-right: 0px;
+  }
+}
+
+
